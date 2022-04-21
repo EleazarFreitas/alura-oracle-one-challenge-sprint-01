@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/alura-logo.svg">
+    <meta name="author" content="EleazarSF">
+    <title>Alura | Oracle | ONE | Challenge - Sprint 01</title>
+</head>
+<body>
+    
+    <div class="main">
+        <div>
+            <div>
+                <img src="assets/img/alura-logo.svg">
+            </div>
+           <div class="content">
+                <textarea placeholder="Digite seu texto" id="string"></textarea>
+                <div>
+                    <div class="warning">
+                        <img src="assets/img/span.svg">
+                        <span>Apenas letras minúsculas e sem acento.</span>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn" onclick="codeString()">Criptografar</button>
+                        <button class="btn" onclick="decodeString()">Descriptografar</button>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="output">
+            <textarea class="output-string" id='print'></textarea>
+            <button onclick="copyText()" class="copy">Copiar</button>
+        </div>
+        
+    </div>
+
+
+    <script src="assets/js/encode.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
